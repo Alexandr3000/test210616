@@ -11,7 +11,7 @@
 
 <div align="center"><h1>Гостевая книга</h1></div>
 
-#Создание формы
+
 <form action="index.php" method="post">
     <table width="500" cellpadding="2" cellspacing="0" style="border: 1px solid rgb(0, 75, 150);" bgcolor="#D2B48C">
         <tbody><tr>
