@@ -7,7 +7,7 @@
 <div align="center"><h1>Гостевая книга</h1></div>
 <?
 
-$file_index = "c:/HTTP/CoderPRO/site//index.dat";
+$file_index = "index.dat";
 $max_rec = 128;
 $rec_page = 10;
 function test() {
@@ -138,7 +138,7 @@ view();
 
 <form action="index.php" method="post">
 
-    <table width="500" cellpadding="2" cellspacing="0" style="border: 1px solid rgb(79, 150, 126);" bgcolor="#D2B48C">
+    <table width="500" cellpadding="2" cellspacing="" style="border: 1px solid rgb(0, 75, 150);" bgcolor="#D2B48C">
         <tbody><tr>
             <td align="right">
                 * Имя:
