@@ -3,9 +3,10 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="expires" content="0">
 </head>
-<body>
+<body id="top">
 <div align="center"><h1>Гостевая книга</h1></div>
 <?
+
 $file_index = "c:/HTTP/CoderPRO/site//index.dat";
 $max_rec = 128;
 $rec_page = 10;
@@ -26,6 +27,7 @@ function test() {
         return(false);
     }
     return(true);
+
 }
 
 function add() {
@@ -135,6 +137,7 @@ view();
 ?>
 
 <form action="index.php" method="post">
+
     <table width="500" cellpadding="2" cellspacing="0" style="border: 1px solid rgb(79, 150, 126);" bgcolor="#D2B48C">
         <tbody><tr>
             <td align="right">
@@ -181,5 +184,14 @@ view();
         </tr>
         </tbody></table>
 </form>
+<a href="#top" style="display:block;position:fixed;
+        /*положение кнопки*/
+        bottom:30px;right:30px;
+         /*оформление кнопки*/
+        width:64px;height:32px;padding:12px 10px 2px;font-size:16px;
+        background:#ddd;
+        -webkit-border-radius:15px;
+        -moz-border-radius:15px;
+        border-radius:15px">Наверх</a>
 </body>
 </html>
